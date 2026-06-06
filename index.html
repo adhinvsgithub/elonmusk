@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elon Musk — Visionary Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&family=Barlow:wght@300;400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ── NOISE OVERLAY ── -->
+  <div class="noise"></div>
+
+  <!-- ── CURSOR ── -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- ══════════════════════════════════
+       HERO
+  ══════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__grid-lines"></div>
+
+    <nav class="nav">
+      <span class="nav__logo">EM</span>
+      <ul class="nav__links">
+        <li><a href="#ventures">Ventures</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#numbers">Numbers</a></li>
+        <li><a href="#quotes">Quotes</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero__content">
+      <p class="hero__tag" data-reveal>ENGINEER · ENTREPRENEUR · FUTURIST</p>
+      <h1 class="hero__name" data-reveal>
+        <span>ELON</span>
+        <span class="hero__name--accent">MUSK</span>
+      </h1>
+      <p class="hero__sub" data-reveal>
+        The man who decided humanity's future was too important<br/>
+        to leave to someone else.
+      </p>
+      <a href="#ventures" class="btn" data-reveal>Explore the Empire ↓</a>
+    </div>
+
+    <div class="hero__scroll-hint">SCROLL</div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       VENTURES
+  ══════════════════════════════════ -->
+  <section class="ventures" id="ventures">
+    <h2 class="section-title" data-reveal>The Ventures</h2>
+    <p class="section-sub" data-reveal>Six companies reshaping civilization.</p>
+
+    <div class="ventures__grid">
+
+      <div class="venture-card" data-reveal data-delay="0">
+        <div class="venture-card__icon">🚀</div>
+        <div class="venture-card__year">2002</div>
+        <h3>SpaceX</h3>
+        <p>Making humanity multiplanetary. First private company to send humans to the ISS.</p>
+        <span class="venture-card__tag">Space</span>
+      </div>
+
+      <div class="venture-card" data-reveal data-delay="100">
+        <div class="venture-card__icon">⚡</div>
+        <div class="venture-card__year">2004</div>
+        <h3>Tesla</h3>
+        <p>Accelerating the world's transition to sustainable energy through electric vehicles and clean power.</p>
+        <span class="venture-card__tag">EV & Energy</span>
+      </div>
+
+      <div class="venture-card" data-reveal data-delay="200">
+        <div class="venture-card__icon">🧠</div>
+        <div class="venture-card__year">2016</div>
+        <h3>Neuralink</h3>
+        <p>Developing brain-computer interfaces to merge human cognition with artificial intelligence.</p>
+        <span class="venture-card__tag">Neuroscience</span>
+      </div>
+
+      <div class="venture-card" data-reveal data-delay="300">
+        <div class="venture-card__icon">🌐</div>
+        <div class="venture-card__year">2016</div>
+        <h3>The Boring Company</h3>
+        <p>Solving urban traffic via high-speed underground tunneling infrastructure.</p>
+        <span class="venture-card__tag">Infrastructure</span>
+      </div>
+
+      <div class="venture-card" data-reveal data-delay="400">
+        <div class="venture-card__icon">𝕏</div>
+        <div class="venture-card__year">2022</div>
+        <h3>X (Twitter)</h3>
+        <p>Reimagining the digital public square as a free-speech platform and everything app.</p>
+        <span class="venture-card__tag">Social Media</span>
+      </div>
+
+      <div class="venture-card" data-reveal data-delay="500">
+        <div class="venture-card__icon">✦</div>
+        <div class="venture-card__year">2023</div>
+        <h3>xAI</h3>
+        <p>Pursuing the fundamental goal of understanding the true nature of the universe through AI.</p>
+        <span class="venture-card__tag">Artificial Intelligence</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       TIMELINE
+  ══════════════════════════════════ -->
+  <section class="timeline-section" id="timeline">
+    <h2 class="section-title" data-reveal>The Journey</h2>
+
+    <div class="timeline">
+
+      <div class="timeline__item" data-reveal>
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">1971</div>
+        <div class="timeline__content">
+          <h4>Born in Pretoria</h4>
+          <p>South Africa. Taught himself to code at age 12.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item" data-reveal>
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">1995</div>
+        <div class="timeline__content">
+          <h4>Zip2 Founded</h4>
+          <p>Online city guide software — sold to Compaq for $307 million.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item" data-reveal>
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">1999</div>
+        <div class="timeline__content">
+          <h4>X.com → PayPal</h4>
+          <p>Online payments pioneer. Merged into PayPal, acquired by eBay for $1.5B.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item" data-reveal>
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">2002</div>
+        <div class="timeline__content">
+          <h4>SpaceX Founded</h4>
+          <p>With $100M of his own money to make life multiplanetary.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item" data-reveal>
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">2008</div>
+        <div class="timeline__content">
+          <h4>Near Bankruptcy</h4>
+          <p>Both Tesla and SpaceX on the edge. Falcon 1 succeeded on the 4th attempt.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item" data-reveal>
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">2020</div>
+        <div class="timeline__content">
+          <h4>Crew Dragon Launch</h4>
+          <p>First private crewed spaceflight to the ISS — historic milestone.</p>
+        </div>
+      </div>
+
+      <div class="timeline__item" data-reveal>
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">2024</div>
+        <div class="timeline__content">
+          <h4>Starship Orbital</h4>
+          <p>World's largest rocket achieves successful orbital test flight.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       NUMBERS
+  ══════════════════════════════════ -->
+  <section class="numbers" id="numbers">
+    <h2 class="section-title" data-reveal>By the Numbers</h2>
+
+    <div class="numbers__grid">
+      <div class="stat-card" data-reveal>
+        <span class="stat-card__num" data-count="340">0</span>
+        <span class="stat-card__unit">B+</span>
+        <p>Net Worth (USD)</p>
+      </div>
+      <div class="stat-card" data-reveal>
+        <span class="stat-card__num" data-count="6">0</span>
+        <span class="stat-card__unit"></span>
+        <p>Active Companies</p>
+      </div>
+      <div class="stat-card" data-reveal>
+        <span class="stat-card__num" data-count="6000">0</span>
+        <span class="stat-card__unit">+</span>
+        <p>Starlink Satellites</p>
+      </div>
+      <div class="stat-card" data-reveal>
+        <span class="stat-card__num" data-count="1">0</span>
+        <span class="stat-card__unit">M+</span>
+        <p>Teslas Delivered (2023)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       QUOTES
+  ══════════════════════════════════ -->
+  <section class="quotes" id="quotes">
+    <h2 class="section-title" data-reveal>In His Own Words</h2>
+
+    <div class="quotes__slider" id="quotesSlider">
+      <div class="quote-card active">
+        <p>"When something is important enough, you do it even if the odds are not in your favor."</p>
+      </div>
+      <div class="quote-card">
+        <p>"Failure is an option here. If things are not failing, you are not innovating enough."</p>
+      </div>
+      <div class="quote-card">
+        <p>"I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better."</p>
+      </div>
+      <div class="quote-card">
+        <p>"The first step is to establish that something is possible; then probability will occur."</p>
+      </div>
+    </div>
+
+    <div class="quotes__controls">
+      <button class="quotes__btn" id="prevQuote">←</button>
+      <div class="quotes__dots" id="quotesDots"></div>
+      <button class="quotes__btn" id="nextQuote">→</button>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       FOOTER
+  ══════════════════════════════════ -->
+  <footer class="footer">
+    <p>Built with HTML · CSS · JavaScript</p>
+    <p class="footer__note">Hosted on <strong>GitHub Pages</strong> · Demo Portfolio for Vibe Coding</p>
+    <p class="footer__credit">Created by <strong>The Blue Signal</strong> — Digital Awareness Initiative</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
